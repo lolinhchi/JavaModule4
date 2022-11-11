@@ -1,0 +1,4 @@
+
+Nov 11, 2022 18:32:55.943 NEW SESSION
+Nov 11, 2022 18:32:55.943 [14412:13884:1111/183255.942:ERROR:device_event_log_impl.cc(215)] [18:32:55.941] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Nov 11, 2022 18:32:55.945 [14412:13884:1111/183255.945:ERROR:device_event_log_impl.cc(215)] [18:32:55.944] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
