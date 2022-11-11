@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class HomeController {
 
-	@RequestMapping("/")
+	@RequestMapping({"/", "/home"})
 	public String home() {
 
 		return "home"; //viewResolver: prefix + viewName + suffix = "/WEB-INF/views/home.jsp

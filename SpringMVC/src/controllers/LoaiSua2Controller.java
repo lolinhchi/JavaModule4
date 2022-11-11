@@ -67,7 +67,7 @@ public class LoaiSua2Controller {
 	
 	@RequestMapping(path = "/them-loai-sua3", method = RequestMethod.GET)
 	public String themLoaiSua3() {
-		return "them-loai-sua";
+		return "them-loai-sua3";
 	}
 
 	//bean
@@ -75,7 +75,8 @@ public class LoaiSua2Controller {
 	public String themLoaiSua(LoaiSua ls, Model model)	 {
 		LoaiSuaBL.them(ls);
 		model.addAttribute("tb", "Da them loai sua");
-		return "them-loai-sua";
+//		return "them-loai-sua";
+		return "redirect:/";
 	}
 
 }
