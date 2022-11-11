@@ -1,4 +1,4 @@
-## Cần 3 cái
+## Cần 3 cái trong file config
 	bean, spring context, mvc
 	
 ## Controller
