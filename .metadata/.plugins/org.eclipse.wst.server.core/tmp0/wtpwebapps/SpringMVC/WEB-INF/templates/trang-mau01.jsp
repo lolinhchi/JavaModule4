@@ -29,21 +29,21 @@
 <body>
 
 <header>
-	<h1>Header</h1>
+	
 	<tiles:insertAttribute name="dauTrang"/>
 </header>
 <main>
 	<nav>
-		<h1>Danh sách</h1>
+		
 		<tiles:insertAttribute  name="thucDon"/>
 	</nav>
 	<article>
-		<h1>Nội dung</h1>
+		
 		<tiles:insertAttribute name="noiDung" />
 	</article>
 </main>
 <footer>
-	<h1>Footer</h1>
+	
 	<tiles:insertAttribute name="cuoiTrang"/>
 </footer>
 </body>

@@ -1,4 +1,4 @@
-## Cần 3 cái
+## Cần 3 cái trong file config
 	bean, spring context, mvc
 	
 ## Controller
@@ -16,6 +16,10 @@
 ## PathVariable
 ## RequestParam
 ## Beans
+<<<<<<< HEAD
 #CookieValue
 
 ## Apache tiles
+=======
+## CookieValue
+>>>>>>> 395117812f561d6caa8ff56310f63a5292e23914

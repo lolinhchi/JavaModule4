@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+       
+<tiles-definitions>
+	<definition name="mau01" template="/WEB-INF/templates/trang-mau01.jsp">
+		<put-attribute name="tieuDe" value="Spring MVC" type="string"/>
+		<put-attribute name="dauTrang" value="/WEB-INF/templates/dau-trang01.jsp"/>
+		<put-attribute name="cuoiTrang" value="/WEB-INF/templates/cuoi-trang01.jsp"/>
+		<put-attribute name="thucDon" value="/WEB-INF/templates/thuc-don01.jsp"/>
+		<put-attribute name="noiDung" value=""/>
+	</definition>
+	
+	<definition name="home" extends="mau01">
+		<put-attribute name="tieuDe" value="Chào"/>
+		<put-attribute name="noiDung" value="/WEB-INF/views/home.jsp"/>
+	</definition>
+</tiles-definitions>     

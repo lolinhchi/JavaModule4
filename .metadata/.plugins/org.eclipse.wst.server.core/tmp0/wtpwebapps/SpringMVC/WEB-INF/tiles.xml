@@ -11,4 +11,13 @@
 		<put-attribute name="thucDon" value="/WEB-INF/templates/thuc-don01.jsp"/>
 		<put-attribute name="noiDung" value=""/>
 	</definition>
+	
+	<definition name="chao" extends="mau01">
+		<put-attribute name="tieuDe" value="Chào"/>
+		<put-attribute name="noiDung" value="/WEB-INF/views/home.jsp"/>
+	</definition>
+	<definition name="loaiSua" extends="mau01">
+		<put-attribute name="tieuDe" value="Loại sữa"/>
+		<put-attribute name="noiDung" value="/WEB-INF/views/loai-sua.jsp"/>
+	</definition>
 </tiles-definitions>     

@@ -18,7 +18,8 @@ public class HomeController {
 	@RequestMapping({"/", "/home"})
 	public String home() {
 
-		return "home"; //viewResolver: prefix + viewName + suffix = "/WEB-INF/views/home.jsp
+//		return "home"; //viewResolver: prefix + viewName + suffix = "/WEB-INF/views/home.jsp
+		return "chao";  //trả về tên định nghĩa trong tiles.xml
 	}
 	
 	//cookie

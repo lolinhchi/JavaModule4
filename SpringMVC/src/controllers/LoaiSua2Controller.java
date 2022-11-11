@@ -45,7 +45,8 @@ public class LoaiSua2Controller {
 			dsls.add(ls);
 		}
 		model.addAttribute("dsls", dsls);
-		return "loai-sua";
+//		return "loai-sua";
+		return "loaiSua";
 	}
 	
 	@RequestMapping(path = "/loai-sua/{maLoai}")
