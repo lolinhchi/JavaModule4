@@ -20,4 +20,12 @@
 		<put-attribute name="tieuDe" value="Loại sữa"/>
 		<put-attribute name="noiDung" value="/WEB-INF/views/loai-sua.jsp"/>
 	</definition>
+	<definition name="uploadFile" extends="mau01">
+		<put-attribute name="tieuDe" value="Upload File" />
+		<put-attribute name="noiDung" value="/WEB-INF/views/upload-file.jsp"/>
+	</definition>
+	<definition name="sendMail" extends="mau01">
+		<put-attribute name="tieuDe" value="Send Mail"/>
+		<put-attribute name="noiDung" value="/WEB-INF/views/send-mail.jsp"/>
+	</definition>
 </tiles-definitions>     

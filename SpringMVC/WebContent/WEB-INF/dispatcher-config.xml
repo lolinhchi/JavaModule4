@@ -35,4 +35,28 @@ http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 			</list>
 		</property>
 	</bean>
+	
+	<bean name="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		
+	</bean>
+	
+	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+	    
+	    <property name="host" value="smtp.gmail.com" />
+	    <property name="port" value="465" />
+	    <property name="username" value="lolinhchi2025@gmail.com" />
+	    <property name="password" value="yfumgkvpmecgywnu" />
+	    <property name="javaMailProperties">
+	        
+	        <props>
+	        	<prop key="mail.smtp.auth">true</prop>  
+	         	<prop key="mail.smtp.socketFactory.port">465</prop>  
+	         	<prop key="mail.smtp.socketFactory.class">javax.net.ssl.SSLSocketFactory</prop>  
+	         	<prop key="mail.smtp.port">587</prop>  
+	            <prop key="mail.transport.protocol">smtp</prop>
+	            <prop key="mail.smtp.starttls.enable">true</prop>
+	        </props>
+	    </property>
+	</bean>
+	
 </beans>
