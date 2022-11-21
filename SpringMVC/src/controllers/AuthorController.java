@@ -52,7 +52,7 @@ public class AuthorController {
 		return "editAuthor";
 	}
 	@RequestMapping(path = "/edit-author", method = RequestMethod.POST)
-	public String editAuthor(@RequestParam("txtId") int id,@RequestParam("txtName") String name, Model model) {
+	public String editAuthor(@RequestParam(name = "txtId", required = false) Integer id,@RequestParam(name = "txtName", required = false) String name, Model model) {
 		Author au = AuthorBL.docTheoId(id);
 		au.setName(name);
 		int row = AuthorBL.sua(au);

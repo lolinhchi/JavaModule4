@@ -52,7 +52,6 @@ INDEX VERSION 1.131+D:\KHTN_MODULE4\.metadata\.plugins\org.eclipse.jdt.core
 2062248984.index
 1761036004.index
 1223436495.index
-2012896879.index
 124766037.index
 3545421395.index
 628522080.index
