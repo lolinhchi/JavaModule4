@@ -28,4 +28,16 @@
 		<put-attribute name="tieuDe" value="Send Mail"/>
 		<put-attribute name="noiDung" value="/WEB-INF/views/send-mail.jsp"/>
 	</definition>
+	<definition name="authors" extends="mau01">
+		<put-attribute name="tieuDe" value="Auhtors"/>
+		<put-attribute name="noiDung" value="/WEB-INF/views/authors.jsp"/>
+	</definition>
+	<definition name="addAuthor" extends="mau01">
+		<put-attribute name="tieuDe" value="Add Author"/>
+		<put-attribute name="noiDung" value="/WEB-INF/views/add-author.jsp"/>
+	</definition>
+	<definition name="editAuthor" extends="mau01">
+		<put-attribute name="tieuDe" value="Edit Author"/>
+		<put-attribute name="noiDung" value="/WEB-INF/views/edit-author.jsp"/>
+	</definition>
 </tiles-definitions>     
