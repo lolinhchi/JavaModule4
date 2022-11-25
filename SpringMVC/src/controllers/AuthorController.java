@@ -64,4 +64,11 @@ public class AuthorController {
 		
 		return "editAuthor";
 	}
+	@RequestMapping("/del-author")
+	public String deleteAuthor(@RequestParam("id") Integer id, Model model) {
+		Author au = AuthorBL.docTheoId(id);
+		AuthorBL.xoa(au);
+		model.addAttribute("authors", AuthorBL.docTatCa());
+		return "authors";
+	}
 }

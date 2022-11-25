@@ -8,9 +8,12 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+
 import javaBeans.LoaiSua;
 
 public class LoaiSuaBL {
+	
 	public static List<LoaiSua> docTatCa(){
 		List<LoaiSua> dsls = new ArrayList<>();
 		try (Connection ketNoi = CSDL.getKetNoi()){
