@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+    
 <ul>
 	<li><a href="${pageContext.request.contextPath}/loai-sua">Loại sữa</a></li>
 	<li><a href="${pageContext.request.contextPath}/send-mail">Send Mail</a></li>
@@ -8,4 +11,5 @@
 	<li><a href="${pageContext.request.contextPath}/them-loai-sua4">Thêm loại sữa 4</a> </li>
 	<li><a href="${pageContext.request.contextPath}/them-loai">Thêm loại sách</a> </li>
 	<li><a href="${pageContext.request.contextPath}/index">Home</a> </li>
+	<li><a href='<c:url value="/index"/>'>Home</a> </li>
 </ul>

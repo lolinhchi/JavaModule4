@@ -1,4 +1,4 @@
 #Tomcat publish data
-#Fri Nov 25 20:46:19 ICT 2022
-org.eclipse.jst.jee.server\:/binary\:D\:\\KHTN_MODULE4\\SpringMVC\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9-sources.jar=WEB-INF/lib/spring-web-5.3.9-sources.jar
-org.eclipse.jst.jee.server\:/binary\:D\:\\KHTN_MODULE4\\SpringMVC\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9.jar=WEB-INF/lib/spring-web-5.3.9.jar
+#Mon Dec 05 19:48:02 ICT 2022
+org.eclipse.jst.jee.server\:/binary\:D\:\\KHTN_MODULE4\\SpringPractise\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.3.9.jar=WEB-INF/lib/spring-web-5.3.9.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\KHTN_MODULE4\\SpringPractise\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.3.9-sources.jar=WEB-INF/lib/spring-web-5.3.9-sources.jar
