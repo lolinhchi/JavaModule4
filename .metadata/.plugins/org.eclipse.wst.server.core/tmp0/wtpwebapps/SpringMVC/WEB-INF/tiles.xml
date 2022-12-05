@@ -40,4 +40,17 @@
 		<put-attribute name="tieuDe" value="Edit Author"/>
 		<put-attribute name="noiDung" value="/WEB-INF/views/edit-author.jsp"/>
 	</definition>
+	<definition name="loaiSua4" extends="mau01">
+		<put-attribute name="tieuDe" value="Thêm loại sữa 4"/>
+		<put-attribute name="noiDung" value="/WEB-INF/views/them-loai-sua4.jsp"/>
+	</definition>
+	<definition name="themLoaiSach" extends="mau01">
+		<put-attribute name="tieuDe" value="Thêm loại sách"/>
+		<put-attribute name="noiDung" value="/WEB-INF/views/them-category.jsp"/>
+	</definition>
+	<definition name="index" extends="mau01">
+		<put-attribute name="tieuDe" value="Home"/>
+		<put-attribute name="thucDon" value="/WEB-INF/views/category-menu.jsp" />
+		<put-attribute name="noiDung" value="/WEB-INF/views/home.jsp"/>
+	</definition>
 </tiles-definitions>     

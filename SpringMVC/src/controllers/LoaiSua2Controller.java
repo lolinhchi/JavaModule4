@@ -79,5 +79,23 @@ public class LoaiSua2Controller {
 //		return "them-loai-sua";
 		return "redirect:/";
 	}
+	
+	@RequestMapping(path = "/them-loai-sua4", method = RequestMethod.POST)
+	public String themLoaiSua4( Model model,  LoaiSua ls){
+		int them = LoaiSuaBL.them(ls);
+		if(them > 0) {
+			model.addAttribute("msg", "Thêm thành công");
+		}else {
+			model.addAttribute("msg", "Xảy ra lỗi!");
+		}
+		model.addAttribute("loaiSua",new LoaiSua() );
+		return "loaiSua4";
+	}
+	@RequestMapping(path = "/them-loai-sua4")
+	public String getthemLoaiSua4( Model model)	 {
+		
+		model.addAttribute("loaiSua",new LoaiSua());
+		return "loaiSua4";
+	}
 
 }
